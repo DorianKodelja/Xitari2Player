@@ -40,6 +40,8 @@
 #include "supported/Pong2Player025.hpp"
 #include "supported/Pong2Player075.hpp"
 #include "supported/Pong2Player05p.hpp"
+#include "supported/Pong2Player025p.hpp"
+#include "supported/Pong2Player075p.hpp"
 
 using namespace ale;
 
@@ -53,7 +55,8 @@ static const RomSettings *roms[]  = {
     new Pong2Player025Settings(),
     new Pong2Player075Settings(),
     new Pong2Player05pSettings(),
-
+    new Pong2Player025pSettings(),
+    new Pong2Player075pSettings(),
 };
 
 
